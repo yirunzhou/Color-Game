@@ -1,0 +1,84 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: "Arial";
+}
+
+h1{
+	color:white;
+	text-align: center;
+	text-weight:"normal";
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding:20px 0;
+	margin:0;
+	background: steelblue;
+	transition: background-color, 0.15s;
+}
+
+h1 span{
+	font-size:150%;
+}
+
+#band{
+	color:steelblue;
+}
+
+button{
+	color:steelblue;
+	height:100%;
+	font-size:inherit;
+	font-weight: bold;
+	background: none;
+	border:none;
+	transition: background-color 0.3s;
+}
+
+#message{
+	display:inline-block;
+	width:20%;
+}
+
+button{
+	outline: none;
+}
+
+button:hover{
+	background-color: steelblue;
+	color:white;
+}
+
+#container{
+	max-width: 600px;
+	margin:20px auto;
+}
+
+.square{
+	width:30%;
+	padding-bottom: 30%;
+	margin:1.66%;
+	background: purple;
+	float:left;
+	transition: all 0.3s;
+	border-radius:3px;
+}
+
+.bodyColor{
+	background: #232323;
+}
+
+#band{
+	background: white;
+	height:2em;
+	text-align: center;
+}
+
+.selected{
+	background-color:steelblue;
+	color:white;
+}
+
+.notSelected{
+	background-color: white;
+	color:steelblue; 
+}
